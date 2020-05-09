@@ -10,4 +10,6 @@ git reset --merge
 ## Показать удалённые ветки
 ```bash
 git branch -r
+git branch -a
+git branch -vv
 ```
