@@ -7,3 +7,7 @@ git branch --track test origin/test
 ```bash
 git reset --merge
 ```
+## Показать удалённые ветки
+```bash
+git branch -r
+```
