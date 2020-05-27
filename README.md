@@ -13,3 +13,6 @@ git branch -r
 git branch -a
 git branch -vv
 ```
+## Удаление локальной ветки
+git branch -d ci
+git branch -D ci
