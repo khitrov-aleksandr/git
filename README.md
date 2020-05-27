@@ -14,5 +14,9 @@ git branch -a
 git branch -vv
 ```
 ## Удаление локальной ветки
-git branch -d ci
-git branch -D ci
+```bash
+   git branch -d ci
+```
+```bash
+   git branch -D ci
+```
