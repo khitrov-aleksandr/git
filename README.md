@@ -20,3 +20,7 @@ git branch -vv
 ```bash
    git branch -D ci
 ```
+## Push новой ветки
+```bash
+   git push --set-upstream origin gitignore
+```
