@@ -24,3 +24,10 @@ git branch -vv
 ```bash
    git push --set-upstream origin gitignore
 ```
+## Изменить имя пользователя и e-mail
+```bash
+   git config user.name "khitrov.av"
+```
+```bash
+   git config user.email "khitrov.aleksandr@gmail.com"
+```
