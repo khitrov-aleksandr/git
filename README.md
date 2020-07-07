@@ -31,3 +31,7 @@ git branch -vv
 ```bash
    git config user.email "khitrov.aleksandr@gmail.com"
 ```
+## Удалить локальные изменения
+```bash
+   git stash save --keep-index --include-untracked
+```
