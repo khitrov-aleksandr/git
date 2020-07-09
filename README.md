@@ -1,4 +1,18 @@
 # git
+## Игнорирование переноса строки
+Актуально для phpStorm
+Отключаем отслеживание переносов строки:
+```bash
+   git config --global core.autocrlf false
+```
+Удаляем закешированный индекс:
+```bash
+   git rm --cached -r .
+```
+Сбрасываем состояние до последнего коммита:
+```bash
+   git reset --hard
+```
 ## Трэк удалённой ветки
 ```bash
 git branch --track test origin/test
