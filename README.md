@@ -13,6 +13,10 @@
 ```bash
    git reset --hard
 ```
+## Изменить существующий комит
+```bash
+   git commit --amend
+```
 ## Трэк удалённой ветки
 ```bash
 git branch --track test origin/test
