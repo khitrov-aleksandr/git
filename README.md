@@ -1,4 +1,4 @@
-#Откат законченного rebase
+# Откат законченного rebase
 ```bash
    git reset --hard ORIG_HEAD
 ```
